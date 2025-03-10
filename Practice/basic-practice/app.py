@@ -12,10 +12,10 @@
 # print(type(my_list_1), " my_list_1 = ", my_list_1)  # <class 'list'>
 # print(type(my_list), " my_list   =  " + str(my_list)) # we will look into type casting in classes ahead
 
-# my_list = [1,2] #mutable
-# my_tuple = (1,2) #immutable
-# print(type(my_list))
-# print(type(my_tuple))
+my_list = [1,2] #mutable
+my_tuple = (1,2) #immutable
+print(type(my_list))
+print(type(my_tuple))
 
 range = range(1,10,20)
 print(type(range), "range = ", range.step)
