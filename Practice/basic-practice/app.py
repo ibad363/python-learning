@@ -101,7 +101,22 @@ string2 = "python developer "
 # string_method = string2.lower()
 # string_method = string2.replace("python","typescript")
 string_method = string2 * 5
-print(string_method)
+# print(string_method)
 
 
 # list methods
+fruits = ["apple","mango","mango","banana","cherry",]
+cars = ['Ford', 'BMW', 'Volvo']
+# fruits.extend(cars)
+fruits.append("orange")
+# fruits.sort()
+count = fruits.count("mango")
+copy = fruits.copy()
+index = fruits.index("cherry")
+fruits.insert(2,"pineapple")
+# pop = fruits.pop(3)
+fruits.pop(3)
+fruits.remove("cherry")
+fruits.reverse()
+# print(fruits)
+# print(pop)
