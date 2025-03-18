@@ -65,3 +65,8 @@ elif option == "Generate Strong Password":
     if st.button("Generate Password", use_container_width=True):
         strong_password = generate_password(length)
         st.success(f"🔑 Your Secure Password: `{strong_password}`")
+
+st.markdown(
+    "<h1 style='text-align:center'>Developed By Ibad Ur Rehman</h1>",
+    unsafe_allow_html=True
+)
