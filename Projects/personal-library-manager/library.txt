@@ -1,0 +1,9 @@
+[
+    {
+        "title": "ibad",
+        "author": "ibad",
+        "year": 2024,
+        "genre": "ibad",
+        "read": false
+    }
+]
